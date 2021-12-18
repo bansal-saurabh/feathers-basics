@@ -43,7 +43,3 @@ app.listen(3030).on('listening', () => console.log('Feathers server listening on
 app.service('messages').create({
     text: 'Hello world from the feathers server'
 });
-
-app.service('messages').create({
-    text: 'Hello again from the feathers server'
-});
